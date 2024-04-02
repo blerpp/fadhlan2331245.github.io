@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data Diri</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Profile</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About me</a></li>
+          <li><a href="#experience">Hobby</a></li>
+          <li><a href="#projects">Album</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="https://www.figma.com/proto/ES1wop3MjAbgNXRED9YOm8/Untitled?type=design&node-id=3-25&t=LIXuaoRvZqWlFI6v-0&scaling=contain&page-id=0%3A1">Prototype</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Profile</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About mxperiencee</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Hobby</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Album</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          <li><a href="#prototype" onclick="toggleMenu()">Prototype</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/foto.png" alt="Fadhlan Ramdani" /> 
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Yoo What's up🤙, I'm  </p>
+        <h1 class="title">Fadhlan Ramdani</h1>
+        <p class="section__text__p2">I'am a collage studen of University Internasional Batam.</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('https://www.youtube.com/watch?v=xvFZjo5PgG0')"
+          >
+            Easter Egg
+          </button>
+          <button class="btn btn-color-1" onclick="window.open('https://wa.me/087811762800/?text=Hello')">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://twitter.com/blerpp06'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://www.instagram.com/f.ramdani06/?next=%2F'"
+          />
+          <img
+          src="./assets/Youtube.png"
+          alt="My Youtube profile"
+          class="icon"
+          onclick="location.href='https://www.youtube.com/channel/UC7KGxrScfLlnK-Iu2NKZ1yw'"
+        />  
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img
+          src="./assets/profile2.jpg"
+          alt="Profile picture"
+          class="about-pic"
+        />
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <img
+              src="./assets/experience.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <h3>Experience</h3>
+            <p>Survive Covid'19<br /></p>
+          </div>
+          <div class="details-container color-container">
+            <img
+              src="./assets/education.png"
+              alt="Education icon"
+              class="icon"
+            />
+            <h3>University</h3>
+            <p>University Internasional Batam<br /></p>
+          </div>
+        </div>
+        <div class="text-container">
+          <p>
+            HI!I am Fadhlan Ramdani studen collage of University Internasional Batam.I was born in Batam, Kepulauan Riau on october 20, 2004.
+            I am the first child of 2 siblings. my goals is to be a 100 meter Internasional sprinter and a car racer.
+          </p>
+        </div>
+      </div>
+    </div>
+    <img
+      src="./assets/arrow.png"
+      alt="Arrow icon"
+      class="icon arrow"
+      onclick="location.href='./#experience'"
+    />
+  </section>
+  <section id="experience">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Hobby</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <h2 class="experience-sub-title">My Hobbies</h2>
+          <div class="article-container">
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Fishing</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Sports</h3>
+                <p>Mastered</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>DiecastCollection</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>PlayingGame</h3>
+                <p>Mastered</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>ListeningToMusic</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Parkour</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>AnnoyingMySister</h3>
+                <p>Mastered</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>FartWithStyle</h3>
+                <p>Mastered</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img
+      src="./assets/arrow.png"
+      alt="Arrow icon"
+      class="icon arrow"
+      onclick="location.href='./#projects'"
+    />
+  </section>
+  <section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Album</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="./assets/album1.jpg"
+              alt="Project 1"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">With my Cousin!</h2>
+          <p>
+            photographed on may 6, 2022 at dempo mountain, Pagar alam</p>
+          <div class="btn-container"> 
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="./assets/album2.png.jpg"
+              alt="Project 2"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">With my girlfriend!</h2>
+          <div class="btn-container">
+            <p>
+              photographed on February 22, 2024 at Mcdonald, Batam </p>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="./assets/album3.jpg"
+              alt="Project 3"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">With my Friend!</h2>
+          <div class="btn-container">
+           <p>photographed on may 25,2023 at ALUN ALUN, Tanjung Pinang</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img
+      src="./assets/arrow.png"
+      alt="Arrow icon"
+      class="icon arrow"
+      onclick="location.href='./#contact'"
+    />
+  </section>
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container color-container">
+      <div class="contact-info-container">
+        <img
+          src="./assets/email.png"
+          alt="Email icon"
+          class="icon contact-icon email-icon"
+        />
+        <p><a href="mailto:examplemail@gmail.com">FadhlanRamdani@Gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img
+          src="./assets/WhatsApp.png"
+          alt="LinkedIn icon"
+          class="icon contact-icon"
+        />
+        <p><a onclick="window.open('https://wa.me/087811762800/?text=Hello')">WhatsApp</a></p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Hobby</a></li>
+          <li><a href="#projects">Album</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="https://www.figma.com/proto/ES1wop3MjAbgNXRED9YOm8/Untitled?type=design&node-id=3-25&t=LIXuaoRvZqWlFI6v-0&scaling=contain&page-id=0%3A1">Prototype</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2024 Fadhlan Ramdani. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
